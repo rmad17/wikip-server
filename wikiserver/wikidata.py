@@ -2,7 +2,7 @@ import wikipedia as wiki
 from random import randint
 
 def get_wiki_data():
-	text = "india*"
+	text = "*"
 	results = wiki.search(text,5,False)
 	page = ""
 	title = ""
